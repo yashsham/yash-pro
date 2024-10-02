@@ -2,11 +2,15 @@
   "name": "yash-pro",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=16"
+  },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build", 
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:pnpm": "pnpm build" 
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.1",
