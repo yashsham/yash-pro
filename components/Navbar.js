@@ -21,7 +21,7 @@ const Navbar = () => {
         <nav className="p-4 bg-background/50 sticky top-0 border-b backdrop-blur z-10">
             <div className="container mx-auto flex justify-between items-center">
                 <div className=" text-2xl font-bold">
-                    Sharma'sWEB
+                    Sharma&apos;sWEB
                 </div>
                 <div className="hidden md:flex space-x-4 items-center">
                     <Link href="/" className="hover:font-bold">
@@ -54,7 +54,7 @@ const Navbar = () => {
                         
                         <SheetContent>
                             <SheetHeader>
-                                <SheetTitle className="font-bold my-4">Sharma'sWEB</SheetTitle>
+                                <SheetTitle className="font-bold my-4">Sharma&apos;sWEB</SheetTitle>
                                 <SheetDescription>
                                     <div className="flix flex-col gap-5">
                                         <Link href="/">Home

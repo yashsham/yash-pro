@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Head from 'next/head';
+import Image from 'next/image';
 
 const tools = [
   {
@@ -184,7 +185,7 @@ const Portfolio = () => {
               <h2 className="text-2x1 font-semibold mb-2 text-white">{category.category}</h2>
               {category.tools.map((tool) => (
                 <div key={tool.name} className="border p-4 rounded-lg mb-4 bg-white shadow-lg hover:shadow-x1 transition-shadow duration-300">
-                  <img src="/logo.png" alt="Website Logo" className="w-12 h-12 mb-2 rounded-full" />
+                  <Image src="/logo.png" alt="Website Logo" width={48} height={48} className="w-12 h-12 mb-2 rounded-full" />
                   <h3 className="text-xl font-bold">{tool.name}</h3>
                   <p>{tool.description}</p>
                   <ul className="list-disc ml-4">

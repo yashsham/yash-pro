@@ -1,4 +1,4 @@
-import { Bar, BarChart } from "recharts"
+import { Bar, BarChart, Tooltip as ChartTooltip } from "recharts"
 
 import { ChartContainer, ChartTooltipContent } from "@/components/ui/charts"
 
